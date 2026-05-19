@@ -1,0 +1,21 @@
+[risk_management]
+max_risk_per_trade = 2.0
+max_portfolio_risk = 10.0
+max_positions = 20
+rebalance_threshold = 5.0
+
+[signals]
+min_confidence = 70
+lookback_period = 100
+momentum_threshold = 0.1
+volatility_filter = 0.3
+
+[system]
+update_frequency = "Daily"
+cache_timeout = 6
+max_retries = 3
+timeout = 30
+
+[notifications]
+signals = true
+errors = true

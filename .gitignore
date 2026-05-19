@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.env
+.venv/
+ENV/
+env/
+.pyenv/
+
+# Package / dependency managers
+pip-wheel-metadata/
+*.egg-info/
+*.eggs/
+
+# Logs
+logs/
+*.log
+
+# Data directories and outputs
+data/
+reports/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Coverage and test artifacts
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Build / distribution
+build/
+dist/
+
+# Misc
+*.sqlite3
+*.db
+*.bak
+*.tmp
+*.temp
